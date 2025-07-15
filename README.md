@@ -2,6 +2,13 @@
 
 Fork with <b>installation shell script</b> and <b>setup.py bug fixes</b>
 
+How to use the installation script (for unix-like, bash script)
+```
+chmod +x ./install.sh                                              # In case of no permission
+./install.sh
+conda activate $(echo $(head -n 1 conda.yml) | awk '{print $NF}')  # equivalent as "conda activate slowfast"
+```
+
 # PySlowFast
 
 PySlowFast is an open source video understanding codebase from FAIR that provides state-of-the-art video classification models with efficient training. This repository includes implementations of the following methods:
