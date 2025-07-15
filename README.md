@@ -1,3 +1,7 @@
+# Fork of [PySlowFast](https://github.com/facebookresearch/SlowFast)
+
+Fork with <b>installation shell script</b> and <b>setup.py bug fixes</b>
+
 # PySlowFast
 
 PySlowFast is an open source video understanding codebase from FAIR that provides state-of-the-art video classification models with efficient training. This repository includes implementations of the following methods:
